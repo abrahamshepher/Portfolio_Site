@@ -117,7 +117,7 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "BitCollision",
+    company_name: "Bit Collision",
     icon: starbucks,
     iconBg: "#383E56",
     date: "",
@@ -130,7 +130,7 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
