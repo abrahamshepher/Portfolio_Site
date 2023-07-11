@@ -33,17 +33,19 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.service_gwnofrt,
-        import.meta.env.template_e4idxu9,
+        "service_gwnofrt",
+        "template_e4idxu9",
+
         {
           from_name: form.name,
-          to_name: "Shepher Abraham",
+          to_name: "abrahamshepher",
           from_email: form.email,
           to_email: "abrahamshepher@gmail.com",
           message: form.message,
         },
-        import.meta.env.WDUxCslbDUUpRBFro
+        "6WNfUV2tnLSUOQYOt"
       )
+
       .then(
         () => {
           setLoading(false);
@@ -55,6 +57,7 @@ const Contact = () => {
             message: "",
           });
         },
+
         (error) => {
           setLoading(false);
           console.error(error);
