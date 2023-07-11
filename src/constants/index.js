@@ -23,7 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+} from "../../public/assets";
 
 export const navLinks = [
   {
@@ -215,7 +215,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/air.JPG",
+    image: "/assets/air.JPG",
     source_code_link: "https://github.com/abrahamshepher/airbnb_clone",
   },
   {
@@ -236,7 +236,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/netflix.JPG",
+    image: "/assets/netflix.JPG",
     source_code_link: "https://github.com/abrahamshepher/Netflix-Clone-",
   },
   {
