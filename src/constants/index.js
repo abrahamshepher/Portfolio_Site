@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Bit Collision",
-    icon: starbucks,
+    icon: creator,
     iconBg: "#383E56",
     date: "",
     points: [
@@ -131,7 +131,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "",
-    icon: tesla,
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "",
     points: [
@@ -144,7 +144,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "",
-    icon: shopify,
+    icon: creator,
     iconBg: "#383E56",
     date: "",
     points: [
@@ -157,7 +157,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "",
-    icon: meta,
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "",
     points: [
